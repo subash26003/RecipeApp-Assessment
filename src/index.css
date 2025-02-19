@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: 'Outfit';
+}
+
+:root{
+  --Coral :#FF7F50;
+  --Orange: #FF7F50;
+  --White:#FFFFFF;
+}
+
+.title{
+    font-family: "Roboto";
+}
+
+.sidebarLink.active {
+    background-color: var(--Coral);
+}
